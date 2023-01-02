@@ -1,18 +1,3 @@
-## Makefile.am
-
-if LINUX
-AM_CPPFLAGS = -I$(srcdir)/include
-AM_CFLAGS = -Wall
-sbin_PROGRAMS = sg_write_buffer
-sg_write_buffer_SOURCES = sg_write_buffer.c \
-	sg_cmds_basic.c		\
-	sg_cmds_basic2.c	\
-	sg_cmds_extra.c		\
-	sg_cmds_mmc.c		\
-	sg_io_linux.c		\
-	sg_lib.c		\
-	sg_lib_data.c		\
-	sg_pt_common.c		\
-	sg_pt_linux.c		\
-	sg_pt_linux_nvme.c
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbb264230968e66ffd0a34593c43184d6ff758eae7e3e5073a8ae5078b1c424b
+size 345

@@ -1,3 +1,3 @@
-## Makefile.am
-
-dist_man_MANS = mkfs.f2fs.8 fsck.f2fs.8 dump.f2fs.8 defrag.f2fs.8 resize.f2fs.8 sload.f2fs.8 f2fs_io.8 f2fslabel.8
+version https://git-lfs.github.com/spec/v1
+oid sha256:49d576062e458742b6f0d412cf1c8cf2516f19890f9504df9d34dc7437b41202
+size 131

@@ -1,8 +1,3 @@
-## Makefile.am
-
-if LINUX
-AM_CPPFLAGS = -I../../include
-AM_CFLAGS = -Wall
-sbin_PROGRAMS = f2fs_io
-f2fs_io_SOURCES = f2fs_io.c
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:a309257241775fbb316e22a79050e8ae2aea141704337dc13124a15341e8cfbc
+size 131
